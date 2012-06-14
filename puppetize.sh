@@ -44,7 +44,7 @@ cat > /etc/puppet/puppet.conf << PUPPETCONF
     vardir      = /var/lib/puppet
     logdir      = /var/log/puppet
     rundir      = /var/run/puppet
-    ssldir      = $vardir/ssl
+    ssldir      = /var/lib/puppet/ssl
 
 [agent]
     certname    = ${FQDN}
